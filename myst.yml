@@ -4,7 +4,10 @@ version: 1
 project:
 # Optional metadata
   github: "https://github.com/jocypl/hw3-jocypl"
-  authors: Jocelyne Perez
+  authors: 
+    name: Jocelyne Perez
+    affiliation: University of California, Berkeley
+  title: LIGO Gravitational Waves
 site:
   title: LIGO WAVES
   template: book-theme
@@ -21,4 +24,7 @@ pages:
 jupyter:
   binder:
     url: "https://mybinder.org/v2/gh/jocypl/hw3-jocypl/main?labpath=LOSC_Event_tutorial.ipynb"
+toc:
+    - README.md
+    - LOSC_Event_tutorial.ipynb
 
